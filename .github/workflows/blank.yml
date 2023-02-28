@@ -21,6 +21,7 @@ jobs:
     - id: test-command
       name: Test a command 
       run: |
+        node --version 
         npm help 
         npm --version
         npm bin -g
