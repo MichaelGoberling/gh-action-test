@@ -20,4 +20,7 @@ jobs:
     steps:
     - id: test-command
       name: Test a command 
-      run: npm help
+      run: |
+        npm help 
+        npm --version
+        npm bin -g
